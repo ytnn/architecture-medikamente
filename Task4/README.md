@@ -1,6 +1,7 @@
 # Задание 4. Оценка узких мест при миграции
 
 ## Диаграмма Исикавы
+<img width="2288" height="700" alt="image" src="https://github.com/user-attachments/assets/7d4ce8c1-fa0e-4df5-b908-5ef5f02bb951" />
 
 Файл xml
 

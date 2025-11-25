@@ -3,7 +3,7 @@
 ## Диаграмма Исикавы
 <img width="2288" height="700" alt="image" src="https://github.com/user-attachments/assets/7d4ce8c1-fa0e-4df5-b908-5ef5f02bb951" />
 
-Файл xml
+[Файл xml](https://github.com/ytnn/architecture-medikamente/blob/74c2f55a256ff781318923740e17a068ed8b553c/Task4/Ishikawa.xml)
 
 
 ## Выявленные проблемы и предложенные решения

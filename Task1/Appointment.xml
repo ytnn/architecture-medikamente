@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram id="w_1ViHtN_3YJnczmhSTJ" name="Page-1">
+    <mxGraphModel dx="2040" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Регистрация пациента" vertex="1">
+          <mxGeometry height="60" width="180" x="-200" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&amp;nbsp;Реестр пациентов&lt;br&gt;(Patients.xlsx)&lt;br&gt;Требуется: шифрование, ACL, аудит или перевод в БД" vertex="1">
+          <mxGeometry height="100" width="240" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Папка пациента&lt;br&gt;Требуется: шифрование, ограниченный доступ, DLP или перевод в БД" vertex="1">
+          <mxGeometry height="90" width="260" x="-390" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="7" edge="1" parent="1" source="XWla-AETfckUGVAafmUk-11" style="endArrow=block;html=1;rounded=1;" target="3" value="Анкетные данные, паспорт, контакты.&lt;div&gt;Сканы/файлы (паспорт, мед.справки)&lt;br&gt;(сейчас: без шифрования, To-Be: ввод через портал по TLS)&lt;/div&gt;">
+          <mxGeometry relative="1" y="30" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-110" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="3" style="endArrow=block;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;entryX=0.489;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" target="5" value="Запись карточки пациента&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.3529" y="-20" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="3" style="endArrow=block;html=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.518;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="6" value="Создание каталога, сохранение файлов">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-543.8095238095239" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XWla-AETfckUGVAafmUk-11" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" value="&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;Пациент&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="51.8" x="-135.9" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

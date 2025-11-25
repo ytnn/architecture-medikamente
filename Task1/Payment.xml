@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Page-1" id="9jL1-5OX7ncTxTNzgVSS">
+    <mxGraphModel dx="2040" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Оплата услуг&lt;br&gt;и обработка платежа" vertex="1">
+          <mxGeometry height="60" width="180" x="-200" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-3" parent="1" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Финансовый реестр платежей&lt;br&gt;(Excel / 1C)&amp;nbsp;&lt;br&gt;Требуется: шифрование, RBAC, аудит операций, DLP,&lt;br&gt;перевод в БД" vertex="1">
+          <mxGeometry height="140" width="260" x="-250" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-5" edge="1" parent="1" source="8ZawqFjkMbBXw8C7OXF2-1" style="endArrow=block;html=1;rounded=1;exitX=0.456;exitY=1.022;exitDx=0;exitDy=0;entryX=0.518;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" target="8ZawqFjkMbBXw8C7OXF2-3" value="Запись оплаты в финреестр&lt;br&gt;(структурированные данные: пациент, услуга, сумма)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-543.8095238095239" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-6" edge="1" parent="1" source="8ZawqFjkMbBXw8C7OXF2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8ZawqFjkMbBXw8C7OXF2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-15" connectable="0" parent="8ZawqFjkMbBXw8C7OXF2-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Оплата медицинских услуг" vertex="1">
+          <mxGeometry relative="1" x="-0.0237" as="geometry">
+            <mxPoint y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-8" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" value="&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;Пациент&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="51.8" x="-135.9" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-9" edge="1" parent="1" source="8ZawqFjkMbBXw8C7OXF2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8ZawqFjkMbBXw8C7OXF2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-10" connectable="0" parent="8ZawqFjkMbBXw8C7OXF2-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ввод данных об оплате: пациент, услуга, сумма&lt;br&gt;(сейчас: Excel + 1C, дублирование; To-Be: платёжный сервис / шлюз по TLS)" vertex="1">
+          <mxGeometry relative="1" x="-0.3374" y="-1" as="geometry">
+            <mxPoint x="139" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-11" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="Кассир" vertex="1">
+          <mxGeometry height="80" width="60" x="-560" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-16" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="ККМ / Эквайринг&#xa;(банк)" vertex="1">
+          <mxGeometry height="130" width="100" x="160" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-18" edge="1" parent="1" source="8ZawqFjkMbBXw8C7OXF2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;" target="8ZawqFjkMbBXw8C7OXF2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ZawqFjkMbBXw8C7OXF2-19" connectable="0" parent="8ZawqFjkMbBXw8C7OXF2-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Передача данных об опдате" vertex="1">
+          <mxGeometry relative="1" x="-0.5181" y="-1" as="geometry">
+            <mxPoint x="47" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

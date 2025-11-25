@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Page-1" id="6VYSxReO9gA0hQ49sc8l">
+    <mxGraphModel dx="2040" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Проведение приёма&lt;br&gt;и назначение анализов" vertex="1">
+          <mxGeometry height="60" width="180" x="-200" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-2" parent="1" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Результаты анализов&lt;br&gt;(PDF/сканы)&lt;br&gt;Требуется: шифрование, DLP, контроль скачивания, перенос в БД" vertex="1">
+          <mxGeometry height="100" width="240" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-3" parent="1" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Медкарта пациента&lt;br&gt;(структурированные данные)&lt;br&gt;Требуется: шифрование, доступ по ролям, аудит, перенос в БД" vertex="1">
+          <mxGeometry height="90" width="260" x="-390" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-5" edge="1" parent="1" source="QZrx3qAUN1oNbYssDIgY-1" style="endArrow=block;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;entryX=0.489;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" target="QZrx3qAUN1oNbYssDIgY-2" value="&lt;div&gt;Сохранение файлов анализов&lt;br&gt;(PDF/JPG)&amp;nbsp;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.3244" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-6" edge="1" parent="1" source="QZrx3qAUN1oNbYssDIgY-1" style="endArrow=block;html=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.518;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="QZrx3qAUN1oNbYssDIgY-3" value="Внесение в медкарту&lt;br&gt;структурированных данных&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-543.8095238095239" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-10" edge="1" parent="1" source="QZrx3qAUN1oNbYssDIgY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QZrx3qAUN1oNbYssDIgY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-11" edge="1" parent="1" source="QZrx3qAUN1oNbYssDIgY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="QZrx3qAUN1oNbYssDIgY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-7" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" value="&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;Пациент&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="51.8" x="-135.9" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-12" edge="1" parent="1" source="QZrx3qAUN1oNbYssDIgY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="QZrx3qAUN1oNbYssDIgY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-14" connectable="0" parent="QZrx3qAUN1oNbYssDIgY-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Медицинские данные о пациенте&lt;br&gt;(жалобы, диагноз, назначения)&lt;br&gt;(сейчас: бумага/Excel, To-Be: ввод в медсервис по TLS)" vertex="1">
+          <mxGeometry relative="1" x="-0.3374" y="-1" as="geometry">
+            <mxPoint x="22" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-8" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="Врач" vertex="1">
+          <mxGeometry height="80" width="60" x="-560" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-9" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="Лаборатория" vertex="1">
+          <mxGeometry height="90" width="130" x="190" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-13" edge="1" parent="1" source="QZrx3qAUN1oNbYssDIgY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.885;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="QZrx3qAUN1oNbYssDIgY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QZrx3qAUN1oNbYssDIgY-15" connectable="0" parent="QZrx3qAUN1oNbYssDIgY-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Результаты анализов&lt;br&gt;(PDF)&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="0.0918" y="-2" as="geometry">
+            <mxPoint x="52" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
